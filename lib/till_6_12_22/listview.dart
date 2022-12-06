@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_rivesion/circle.dart';
-import 'package:flutter_rivesion/mySquare.dart';
+import 'package:flutter_rivesion/till_6_12_22/circle.dart';
+
+import 'mySquare.dart';
+
 
 class listView extends StatefulWidget {
   const listView({Key? key}) : super(key: key);
