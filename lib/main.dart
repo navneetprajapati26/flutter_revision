@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_rivesion/sqlit_tut/sql_home.dart';
 
 import 'package:flutter_rivesion/till_6_12_22/login.dart';
+
+import 'for_package/test.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
@@ -21,7 +24,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.grey,
       ),
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      home: SQLhome(),
     );
   }
 }
